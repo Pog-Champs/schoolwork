@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Ammar-Registration.css">
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <img src="Ammar-logo.jpg" width="200" alt="" tittle="">
+          </td>
+          <td>
+            <h1>Registration Form<h1>
+          </td>
+        </tr>
+      </table>
+  	</header>
+
+  <form action="overview.html" method="post">
+    <!-- overview.html will be added later on-->
+    <table>
+      <tr>
+        <td>
+          Name
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" name="first name" placeholder="First Name">
+          <input type="text" name="last name" placeholder="Last Name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Email address
+          <input type="text" name="Email" placeholder="Email">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Password
+          <input type="Password" name="Password" placeholder="Password">
+        </td>
+      </tr>
+      <tr>
+        <td class="phoneno">
+          Phone Number
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select name="Phonearea">
+            <option value="+61">+61</option>
+            <option value="+62">+62</option>
+            <option value="+63">+63</option>
+            <option value="+64">+64</option>
+          </select>
+          <input id="phone" type="text" name="Phone" placeholder="xxx-xxx-xxx">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Address
+          <textarea name="Address" placeholder="Address"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Date of Birth
+          <input type="date" id="birthday" name="birthday">
+        </td>
+      </tr>
+    </table>
+    <button type="submit">Sign-up</button>
+  </form>
+
+  </body>
+</html>
